@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    width: 100%;
+    background-color: #FAEBD7;
+    /*border: 10px solid #DEB887;*/
+    border-bottom: 10px solid #DEB887;
+    box-shadow: 5px 5px 5px #F5DEB3; /*eixo x/ eixo y/ opacidade/ cor*/
+}
+#secao_banner{
+    height:60vh;
+    width: 100%;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+    background-image: url("../imagens/whopper-jnr.jpg");
+    background-size: contain;  
+    color: 	#CD853F; 
+    font-size: 2em;
+}
+h1{
+    font-size: 2em;
+    color: 	#CD853F;
+}
+#secao_card{
+    height: 50vh;
+    background-color:#F4EBDC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*seletor de classe*/
+.card{
+  border: 3px solid #DEB887;
+  height: 60%;
+  width: 30%;
+}
+#card_texto{
+    margin-left: 5%;
+    color: 	#CD853F;
+    font-size: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    width: 100%;
+    background-image: -webkit-linear-gradient(top,#F4EBDC, #DEB887);
+}
+.card-footer{
+    height: 80%;
+    width: 25%;
+    border: 1px solid white;
+}
